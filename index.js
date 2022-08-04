@@ -87,7 +87,7 @@ function init() {
     // generate the readme in markdown language from template using response to all questions
     const readmePageContent = generateReadme(answers);
     // write the README file with the content generated
-    writeToFile('README.md', readmePageContent);
+    writeToFile('./output/README.md', readmePageContent);
     
   });
 

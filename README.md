@@ -1,44 +1,43 @@
-# 
-
-
-[<img alt="APM badge" src='https://img.shields.io/badge/license-mpl--2.0-blue'>](#license)
+# Professional README Generator
 
 ## Description
 
+This is an application that takes user input and generates a proffesional README file 
 
+The user is asked questions that will generate the content of the readme.
+- These questions are GitHub username, email address, Project Name, Description, license type, dependancies, test requirments, knowledge and contributing instructions
+<br>
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- [GitHub Link](#link)
+- [Installation Instructions](#install-instructions)
+- [Video Demo](#video-demo)
+- [Screenshot](#screenshot)
+---
 
-## Installation 
+## Link
+
+The link to the GitHub repository of the assignment is <br>
+[https://github.com/jkoufalas/Professional-README-Generator](https://github.com/jkoufalas/Professional-README-Generator)
+
+---
+
+## Install Instructions
+
+The user needs to install the dependancies of the inquirer package 
+
 ```
-npm i
+npm i inquirer@8.2.4
 ```
+---
 
-## Usage
-
-
-
-## License
-
-This project is licensed under the Mozilla Public License 2.0 license.
-    More information can be found at https://choosealicense.com/licenses/mpl-2.0 
-
-## Contributing
+## Video Demo
 
 
+---
+## Screenshot
 
-## Tests
-```
-npm test
-```
+This image provides a sample of the completed website.
 
-## Questions
-
-If you have any questions about the repo, open an issue in GitHib or contact me directly at [](mailto:). You can find more of my work at [GitHub](https://github.com/)
+![The Code Quiz game](./assets/Images/screen.png)
