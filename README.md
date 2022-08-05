@@ -65,3 +65,6 @@ This location is within generateMarkdown.js located in the utils folder.
 
 Each object within the array contains a license, with the long name as 'name' and the correct abbreviation used by github and img.shields.io as 'abbreviation'.
 
+## Sample README
+
+A sample of a generated README can be located in the ./output folder named README.md. This is the README generated in the Demo video link.
