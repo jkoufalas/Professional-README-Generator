@@ -28,7 +28,7 @@ const questions = [
   {
     type: 'input',
     name: 'project',
-    message: 'Where is your Projects Name?',
+    message: 'What is your Projects Name?',
   },
   {
     type: 'input',
@@ -51,7 +51,7 @@ const questions = [
     type: 'input',
     name: 'tests',
     message: 'What command should be run to run tests?',
-    default: 'npm test',
+    default: 'npm run test',
   },
   {
     type: 'input',

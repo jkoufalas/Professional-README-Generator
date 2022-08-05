@@ -5,7 +5,7 @@
 
 ## Description
 
-a description of the project is entered here
+a short description
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ npm i inquirer@8.2.4
 
 ## Usage
 
-information the user would need to know
+usage section info...
 
 ## License
 
@@ -32,11 +32,11 @@ This project is licensed under the BSD 3-clause "New" or "Revised" license licen
 
 ## Contributing
 
-contribution instructions
+contributing information....
 
 ## Tests
 ```
-npm test
+npm run test
 ```
 
 ## Questions
