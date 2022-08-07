@@ -85,67 +85,12 @@ function init() {
   .then((answers) => {
     console.log('Geneating README...');
     // generate the readme in markdown language from template using response to all questions
-    const readmePageContent = generateReadme(answers);
+    const readmePageContent = generate.generateMarkdown(answers);
     // write the README file with the content generated
     writeToFile('./output/README.md', readmePageContent);
     
   });
 
-
-}
-
-
-const generateReadme = ({ github, email, project, description, license, dependancies, tests, knowledge, contributing}) => {
-
-  /*
-  generateMarkdown will generate the header (single #) markdown with the title passed in
-  generateMarkdownSub will generate the sub header (double ##) markdown with the title passed in
-  renderLicenseBadge will obtain the image used for the license badge with the license passed in
-  renderLicenseSection will generate the License section content with the license type chosen
-  */
- return `${generate.generateMarkdown(project)}
-
-
-[${generate.renderLicenseBadge(license)}](#license)
-
-${generate.generateMarkdownSub('Description')}
-
-${description}
-
-${generate.generateMarkdownSub('Table of Contents')}
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-
-${generate.generateMarkdownSub('Installation')} 
-\`\`\`
-${dependancies}
-\`\`\`
-
-${generate.generateMarkdownSub('Usage')}
-
-${knowledge}
-
-${generate.generateMarkdownSub('License')}
-
-${generate.renderLicenseSection(license)} 
-
-${generate.generateMarkdownSub('Contributing')}
-
-${contributing}
-
-${generate.generateMarkdownSub('Tests')}
-\`\`\`
-${tests}
-\`\`\`
-
-${generate.generateMarkdownSub('Questions')}
-
-If you have any questions about the repo, open an issue in GitHib or contact me directly at [${email}](mailto:${email}). You can find more of my work at [GitHub](https://github.com/${github})`;
 }
 
 // Function call to initialize app

@@ -75,22 +75,76 @@ const renderLicenseSection = (license) => {
 
 // Create a function to generate markdown for README
 // this markdown is for the main title (single #)
-const generateMarkdown = (title) => {
+const generateHeader = (title) => {
   return `# ${title}`;
 }
 
 // Create a function to generate markdown for README
 // this markdown is for any sub heading (double ##)
-const generateMarkdownSub = (title) => {
+const generateHeaderSub = (title) => {
   return `## ${title}`;
+}
+
+const generateMarkdown = ({ github, email, project, description, license, dependancies, tests, knowledge, contributing}) => {
+
+  /*
+  generateHeader will generate the header (single #) markdown with the title passed in
+  generateHeaderSub will generate the sub header (double ##) markdown with the title passed in
+  renderLicenseBadge will obtain the image used for the license badge with the license passed in
+  renderLicenseSection will generate the License section content with the license type chosen
+  */
+ return `${generateHeader(project)}
+
+
+[${renderLicenseBadge(license)}](#license)
+
+${generateHeaderSub('Description')}
+
+${description}
+
+${generateHeaderSub('Table of Contents')}
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+${generateHeaderSub('Installation')} 
+\`\`\`
+${dependancies}
+\`\`\`
+
+${generateHeaderSub('Usage')}
+
+${knowledge}
+
+${generateHeaderSub('License')}
+
+${renderLicenseSection(license)} 
+
+${generateHeaderSub('Contributing')}
+
+${contributing}
+
+${generateHeaderSub('Tests')}
+\`\`\`
+${tests}
+\`\`\`
+
+${generateHeaderSub('Questions')}
+
+If you have any questions about the repo, open an issue in GitHib or contact me directly at [${email}](mailto:${email}). You can find more of my work at [GitHub](https://github.com/${github})`;
 }
 
 //exports functions and data types
 module.exports = {
-  generateMarkdown,
+  generateHeader,
   renderLicenseLink,
   renderLicenseSection,
   renderLicenseBadge,
-  generateMarkdownSub,
-  licenseType
+  generateHeaderSub,
+  licenseType,
+  generateMarkdown
 };

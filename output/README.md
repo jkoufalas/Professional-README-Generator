@@ -1,11 +1,11 @@
-# Demo Project
+# test
 
 
-[<img alt="APM badge" src='https://img.shields.io/badge/license-bsd--3--clause-blue'>](#license)
+[<img alt="APM badge" src='https://img.shields.io/badge/license-gpl--2.0-blue'>](#license)
 
 ## Description
 
-a short description
+tttggg
 
 ## Table of Contents
 
@@ -18,21 +18,21 @@ a short description
 
 ## Installation 
 ```
-npm i inquirer@8.2.4
+npm i
 ```
 
 ## Usage
 
-usage section info...
+
 
 ## License
 
-This project is licensed under the BSD 3-clause "New" or "Revised" license license.
-    More information can be found at https://choosealicense.com/licenses/bsd-3-clause 
+This project is licensed under the GNU General Public License v2.0 license.
+    More information can be found at https://choosealicense.com/licenses/gpl-2.0 
 
 ## Contributing
 
-contributing information....
+
 
 ## Tests
 ```
@@ -41,4 +41,4 @@ npm run test
 
 ## Questions
 
-If you have any questions about the repo, open an issue in GitHib or contact me directly at [john@koufalas.com](mailto:john@koufalas.com). You can find more of my work at [GitHub](https://github.com/jkoufalas)
+If you have any questions about the repo, open an issue in GitHib or contact me directly at [jkoufalasss](mailto:jkoufalasss). You can find more of my work at [GitHub](https://github.com/john)
