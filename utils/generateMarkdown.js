@@ -140,11 +140,6 @@ If you have any questions about the repo, open an issue in GitHib or contact me 
 
 //exports functions and data types
 module.exports = {
-  generateHeader,
-  renderLicenseLink,
-  renderLicenseSection,
-  renderLicenseBadge,
-  generateHeaderSub,
   licenseType,
   generateMarkdown
 };

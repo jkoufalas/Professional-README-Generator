@@ -1,11 +1,11 @@
-# test
+# yes man
 
 
-[<img alt="APM badge" src='https://img.shields.io/badge/license-gpl--2.0-blue'>](#license)
+[<img alt="APM badge" src='https://img.shields.io/badge/license-apache--2.0-blue'>](#license)
 
 ## Description
 
-tttggg
+fdfdfdf
 
 ## Table of Contents
 
@@ -27,8 +27,8 @@ npm i
 
 ## License
 
-This project is licensed under the GNU General Public License v2.0 license.
-    More information can be found at https://choosealicense.com/licenses/gpl-2.0 
+This project is licensed under the Apache license 2.0 license.
+    More information can be found at https://choosealicense.com/licenses/apache-2.0 
 
 ## Contributing
 
@@ -41,4 +41,4 @@ npm run test
 
 ## Questions
 
-If you have any questions about the repo, open an issue in GitHib or contact me directly at [jkoufalasss](mailto:jkoufalasss). You can find more of my work at [GitHub](https://github.com/john)
+If you have any questions about the repo, open an issue in GitHib or contact me directly at [joooixxxx](mailto:joooixxxx). You can find more of my work at [GitHub](https://github.com/jkoufalas1)
